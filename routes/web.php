@@ -14,5 +14,41 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('index');
+})->name('p-home');
+
+Route::get('/personaggi', function () {
+    return view('characters');
+})->name('p-characters');
+
+Route::get('/fumetti', function () {
+    return view('comics');
+})->name('p-comics');
+
+Route::get('/film', function () {
+    return view('movies');
+})->name('p-movies');
+
+Route::get('/serie TV', function () {
+    return view('tvseries');
+})->name('p-tvseries');
+
+Route::get('/giochi', function () {
+    return view('games');
+})->name('p-games');
+
+Route::get('/collezionabili', function () {
+    return view('collector');
+})->name('p-collector');
+
+Route::get('/video', function () {
+    return view('video');
+})->name('p-video');
+
+Route::get('/fan', function () {
+    return view('fans');
+})->name('p-fans');
+
+Route::get('/novità', function () {
+    return view('news');
+})->name('p-news');
