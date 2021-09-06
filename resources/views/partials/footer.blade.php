@@ -2,7 +2,7 @@
     <div class="container-footer-top">
         <aside>
             <nav>
-                <ul>
+                <ul class="list">
                     <li>
                         <h3>DC COMICS</h3>
                         <ul>
@@ -50,33 +50,34 @@
             <img src="{{asset('images/dc-logo-bg.png')}}" alt="">
         </aside>
 
+    </div>
 
 
-        <div class="container-footer-bottom">
-            <aside>
-                <button>SIGN-UP NOW!</button>
-            </aside>
-            
-            <aside>
-                <h3>FOLLOW US</h3>
-                <ul>
-                    <li>
-                        <img src="{{asset('images/footer-facebook.png')}}" alt="">
-                    </li>
-                    <li>
-                        <img src="{{asset('images/footer-twitter.png')}}" alt="">
-                    </li>
-                    <li>
-                        <img src="{{asset('images/footer-youtube.png')}}" alt="">
-                    </li>
-                    <li>
-                        <img src="{{asset('images/footer-pinterest.png')}}" alt="">
-                    </li>
-                    <li>
-                        <img src="{{asset('images/footer-periscope.png')}}" alt="">
-                    </li>
-                </ul>
-            </aside>
-        </div>
+    
+    <div class="container-footer-bottom">
+        <aside>
+            <button>SIGN-UP NOW!</button>
+        </aside>
+        
+        <aside>
+            <h3>FOLLOW US</h3>
+            <ul>
+                <li>
+                    <img src="{{asset('images/footer-facebook.png')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{asset('images/footer-twitter.png')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{asset('images/footer-youtube.png')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{asset('images/footer-pinterest.png')}}" alt="">
+                </li>
+                <li>
+                    <img src="{{asset('images/footer-periscope.png')}}" alt="">
+                </li>
+            </ul>
+        </aside>
     </div>
 </footer>
