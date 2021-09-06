@@ -20,7 +20,7 @@
                 <li><a href="{{route('p-fans')}}">FANS</a></li>
                 <li><a href="{{route('p-news')}}">NEWS</a></li>
                 <li>SHOP</li>
-                <li>Search</li>
+                <li>Search <i class="fas fa-search"></i></i></li>
             </ul>
         </nav>
     </div>
