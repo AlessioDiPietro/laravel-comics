@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $comics = config('comics');
-    $data = ['libreria'=> $comics]; 
+    $data = ['libreria'=> config('comics')]; 
     return view('index', $data);
 })->name('p-home');
 
@@ -24,7 +23,8 @@ Route::get('/personaggi', function () {
 })->name('p-characters');
 
 Route::get('/fumetti', function () {
-    return view('comics');
+    $data = ['libreria'=> config('comics')];
+    return view('comics',$data);
 })->name('p-comics');
 
 Route::get('/film', function () {
