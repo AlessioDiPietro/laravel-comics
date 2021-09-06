@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $comics = config('comics');
+    $data = ['libreria'=> $comics]; 
+    return view('index', $data);
 })->name('p-home');
 
 Route::get('/personaggi', function () {

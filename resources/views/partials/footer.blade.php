@@ -42,7 +42,7 @@
                 </ul>
             </nav>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, nostrum. Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">Sequi,</a> nostrum. Lorem ipsum dolor sit amet.</p>
         </aside>
 
 
