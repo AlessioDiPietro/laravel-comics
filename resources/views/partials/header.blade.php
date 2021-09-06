@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+    <div class="container-header">
         {{-- logo --}}
         <div class="logo">
             <a href="{{route ('p-home')}}">
