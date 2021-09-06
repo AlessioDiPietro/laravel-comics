@@ -17,6 +17,6 @@
     <main>@yield('main-content')</main>
 
     {{-- footer comp --}}
-    @include("footer")
+    @include("partials.footer")
 </body>
 </html>
