@@ -86,7 +86,7 @@ a {
 }
 
 .container-jumbo {
-  background-image: url("../../../public/images/jumbotron.jpg");
+  background-image: url("../images/jumbotron.jpg");
   height: 400px;
   width: 100%;
   position: relative;
@@ -95,7 +95,7 @@ a {
   position: absolute;
   left: 300px;
   bottom: 0;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
   background-color: #0282f9;
   color: #ffffff;
   font: 23px;
@@ -109,7 +109,7 @@ footer {
 
 .container-footer-top {
   padding: 0 180px;
-  background-image: url("../../../public/images/footer-bg.jpg");
+  background-image: url("../images/footer-bg.jpg");
   background-color: black;
   height: 400px;
   width: 100%;
