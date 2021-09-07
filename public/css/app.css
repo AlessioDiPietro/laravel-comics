@@ -45,6 +45,64 @@ a {
   width: 75px;
 }
 
+.container-main {
+  background-color: #303030;
+}
+.container-main .comics-area {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 80px 270px;
+}
+.container-main .comics-area .card {
+  width: calc(100% / 6);
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.container-main .comics-area .card h4 {
+  margin-top: 20px;
+}
+.container-main .icon-area {
+  padding: 50px 270px;
+  color: #ffffff;
+  background-color: #0282f9;
+}
+.container-main .icon-area ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-main .icon-area ul li {
+  margin: 0 5px;
+  width: calc(100% / 5);
+}
+.container-main .icon-area ul li img {
+  width: 50px;
+  height: 60px;
+}
+.container-main .icon-area ul li span {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.container-jumbo {
+  background-image: url("../../../public/images/jumbotron.jpg");
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+.container-jumbo button {
+  position: absolute;
+  left: 300px;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  background-color: #0282f9;
+  color: #ffffff;
+  font: 23px;
+  padding: 10px 15px;
+  border: none;
+}
+
 footer {
   color: #797979;
 }
